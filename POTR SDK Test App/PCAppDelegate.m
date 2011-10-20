@@ -7,6 +7,7 @@
 //
 
 #import "PCAppDelegate.h"
+#import "PCRootViewController.h"
 
 @implementation PCAppDelegate
 
@@ -20,10 +21,15 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
+    PCRootViewController *viewController = [[PCRootViewController alloc] initWithNibName:@"PCRootViewController" bundle:nil];
     self.window = [[[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]] autorelease];
     // Override point for customization after application launch.
     self.window.backgroundColor = [UIColor whiteColor];
+    self.window.rootViewController = viewController;
     [self.window makeKeyAndVisible];
+    
+    [viewController release];
+    
     return YES;
 }
 
