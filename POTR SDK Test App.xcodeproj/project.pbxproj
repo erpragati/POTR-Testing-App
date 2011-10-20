@@ -1,0 +1,262 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4822169E1450907E006299C7 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4822169D1450907E006299C7 /* UIKit.framework */; };
+		482216A01450907E006299C7 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4822169F1450907E006299C7 /* Foundation.framework */; };
+		482216A21450907E006299C7 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 482216A11450907E006299C7 /* CoreGraphics.framework */; };
+		482216A81450907E006299C7 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 482216A61450907E006299C7 /* InfoPlist.strings */; };
+		482216AA1450907E006299C7 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 482216A91450907E006299C7 /* main.m */; };
+		482216AE1450907E006299C7 /* PCAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 482216AD1450907E006299C7 /* PCAppDelegate.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		482216991450907E006299C7 /* POTR SDK Test App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "POTR SDK Test App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		4822169D1450907E006299C7 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		4822169F1450907E006299C7 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		482216A11450907E006299C7 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		482216A51450907E006299C7 /* POTR SDK Test App-Info.plist */ = {isa = PBXFileReference; path = "POTR SDK Test App-Info.plist"; sourceTree = "<group>"; };
+		482216A71450907E006299C7 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		482216A91450907E006299C7 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		482216AB1450907E006299C7 /* POTR SDK Test App-Prefix.pch */ = {isa = PBXFileReference; path = "POTR SDK Test App-Prefix.pch"; sourceTree = "<group>"; };
+		482216AC1450907E006299C7 /* PCAppDelegate.h */ = {isa = PBXFileReference; path = PCAppDelegate.h; sourceTree = "<group>"; };
+		482216AD1450907E006299C7 /* PCAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PCAppDelegate.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		482216961450907E006299C7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4822169E1450907E006299C7 /* UIKit.framework in Frameworks */,
+				482216A01450907E006299C7 /* Foundation.framework in Frameworks */,
+				482216A21450907E006299C7 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4822168E1450907D006299C7 = {
+			isa = PBXGroup;
+			children = (
+				482216A31450907E006299C7 /* POTR SDK Test App */,
+				4822169C1450907E006299C7 /* Frameworks */,
+				4822169A1450907E006299C7 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		4822169A1450907E006299C7 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				482216991450907E006299C7 /* POTR SDK Test App.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4822169C1450907E006299C7 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				4822169D1450907E006299C7 /* UIKit.framework */,
+				4822169F1450907E006299C7 /* Foundation.framework */,
+				482216A11450907E006299C7 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		482216A31450907E006299C7 /* POTR SDK Test App */ = {
+			isa = PBXGroup;
+			children = (
+				482216AC1450907E006299C7 /* PCAppDelegate.h */,
+				482216AD1450907E006299C7 /* PCAppDelegate.m */,
+				482216A41450907E006299C7 /* Supporting Files */,
+			);
+			path = "POTR SDK Test App";
+			sourceTree = "<group>";
+		};
+		482216A41450907E006299C7 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				482216A51450907E006299C7 /* POTR SDK Test App-Info.plist */,
+				482216A61450907E006299C7 /* InfoPlist.strings */,
+				482216A91450907E006299C7 /* main.m */,
+				482216AB1450907E006299C7 /* POTR SDK Test App-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		482216981450907E006299C7 /* POTR SDK Test App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 482216B11450907E006299C7 /* Build configuration list for PBXNativeTarget "POTR SDK Test App" */;
+			buildPhases = (
+				482216951450907E006299C7 /* Sources */,
+				482216961450907E006299C7 /* Frameworks */,
+				482216971450907E006299C7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "POTR SDK Test App";
+			productName = "POTR SDK Test App";
+			productReference = 482216991450907E006299C7 /* POTR SDK Test App.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		482216901450907D006299C7 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+				ORGANIZATIONNAME = "ELC Technologies";
+			};
+			buildConfigurationList = 482216931450907D006299C7 /* Build configuration list for PBXProject "POTR SDK Test App" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 4822168E1450907D006299C7;
+			productRefGroup = 4822169A1450907E006299C7 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				482216981450907E006299C7 /* POTR SDK Test App */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		482216971450907E006299C7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				482216A81450907E006299C7 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		482216951450907E006299C7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				482216AA1450907E006299C7 /* main.m in Sources */,
+				482216AE1450907E006299C7 /* PCAppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		482216A61450907E006299C7 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				482216A71450907E006299C7 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		482216AF1450907E006299C7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		482216B01450907E006299C7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		482216B21450907E006299C7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "POTR SDK Test App/POTR SDK Test App-Prefix.pch";
+				INFOPLIST_FILE = "POTR SDK Test App/POTR SDK Test App-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		482216B31450907E006299C7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "POTR SDK Test App/POTR SDK Test App-Prefix.pch";
+				INFOPLIST_FILE = "POTR SDK Test App/POTR SDK Test App-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		482216931450907D006299C7 /* Build configuration list for PBXProject "POTR SDK Test App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				482216AF1450907E006299C7 /* Debug */,
+				482216B01450907E006299C7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		482216B11450907E006299C7 /* Build configuration list for PBXNativeTarget "POTR SDK Test App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				482216B21450907E006299C7 /* Debug */,
+				482216B31450907E006299C7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 482216901450907D006299C7 /* Project object */;
+}
