@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		481748CF1455FE1A00730F1A /* libPCOTR SDK.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 481748CE1455FE1A00730F1A /* libPCOTR SDK.a */; };
 		4822169E1450907E006299C7 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4822169D1450907E006299C7 /* UIKit.framework */; };
 		482216A01450907E006299C7 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4822169F1450907E006299C7 /* Foundation.framework */; };
 		482216A21450907E006299C7 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 482216A11450907E006299C7 /* CoreGraphics.framework */; };
@@ -69,11 +70,9 @@
 		4822172C145092BA006299C7 /* PCRootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4822172A145092BA006299C7 /* PCRootViewController.m */; };
 		4822172D145092BA006299C7 /* PCRootViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4822172B145092BA006299C7 /* PCRootViewController.xib */; };
 		4822172F14509525006299C7 /* TestImage.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 4822172E14509525006299C7 /* TestImage.jpg */; };
-		48221731145095A1006299C7 /* libPCOTR SDK.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 48221730145095A1006299C7 /* libPCOTR SDK.a */; };
 		48221733145098EF006299C7 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 48221732145098EF006299C7 /* CoreLocation.framework */; };
 		482217361450992C006299C7 /* AddressBook.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 482217341450992C006299C7 /* AddressBook.framework */; };
 		482217371450992C006299C7 /* AddressBookUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 482217351450992C006299C7 /* AddressBookUI.framework */; };
-		4822173A1450995D006299C7 /* DSActivityView.m in Sources */ = {isa = PBXBuildFile; fileRef = 482217391450995D006299C7 /* DSActivityView.m */; };
 		48221754145099B1006299C7 /* ASIAuthenticationDialog.m in Sources */ = {isa = PBXBuildFile; fileRef = 4822173F145099B1006299C7 /* ASIAuthenticationDialog.m */; };
 		48221755145099B1006299C7 /* ASIDataCompressor.m in Sources */ = {isa = PBXBuildFile; fileRef = 48221742145099B1006299C7 /* ASIDataCompressor.m */; };
 		48221756145099B1006299C7 /* ASIDataDecompressor.m in Sources */ = {isa = PBXBuildFile; fileRef = 48221744145099B1006299C7 /* ASIDataDecompressor.m */; };
@@ -91,9 +90,13 @@
 		4822176D1450A702006299C7 /* UIImage+Resize.m in Sources */ = {isa = PBXBuildFile; fileRef = 482217691450A702006299C7 /* UIImage+Resize.m */; };
 		4822176E1450A702006299C7 /* UIImage+RoundedCorner.m in Sources */ = {isa = PBXBuildFile; fileRef = 4822176B1450A702006299C7 /* UIImage+RoundedCorner.m */; };
 		482217721450A71B006299C7 /* JSONKit.m in Sources */ = {isa = PBXBuildFile; fileRef = 482217711450A71B006299C7 /* JSONKit.m */; };
+		482217801450C84E006299C7 /* DSActivityView.m in Sources */ = {isa = PBXBuildFile; fileRef = 4822177F1450C84E006299C7 /* DSActivityView.m */; };
+		482FC9B31450CE8100BB9E7A /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 482FC9B21450CE8000BB9E7A /* Security.framework */; };
+		482FC9B61450CEAB00BB9E7A /* libFlurryAnalytics.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 482FC9B51450CEAB00BB9E7A /* libFlurryAnalytics.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		481748CE1455FE1A00730F1A /* libPCOTR SDK.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = "libPCOTR SDK.a"; sourceTree = "<group>"; };
 		482216991450907E006299C7 /* POTR SDK Test App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "POTR SDK Test App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		4822169D1450907E006299C7 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		4822169F1450907E006299C7 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -162,12 +165,9 @@
 		4822172A145092BA006299C7 /* PCRootViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PCRootViewController.m; sourceTree = "<group>"; };
 		4822172B145092BA006299C7 /* PCRootViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = PCRootViewController.xib; sourceTree = "<group>"; };
 		4822172E14509525006299C7 /* TestImage.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = TestImage.jpg; sourceTree = "<group>"; };
-		48221730145095A1006299C7 /* libPCOTR SDK.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = "libPCOTR SDK.a"; sourceTree = "<group>"; };
 		48221732145098EF006299C7 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
 		482217341450992C006299C7 /* AddressBook.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AddressBook.framework; path = System/Library/Frameworks/AddressBook.framework; sourceTree = SDKROOT; };
 		482217351450992C006299C7 /* AddressBookUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AddressBookUI.framework; path = System/Library/Frameworks/AddressBookUI.framework; sourceTree = SDKROOT; };
-		482217381450995D006299C7 /* DSActivityView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DSActivityView.h; sourceTree = "<group>"; };
-		482217391450995D006299C7 /* DSActivityView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DSActivityView.m; sourceTree = "<group>"; };
 		4822173E145099B1006299C7 /* ASIAuthenticationDialog.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ASIAuthenticationDialog.h; sourceTree = "<group>"; };
 		4822173F145099B1006299C7 /* ASIAuthenticationDialog.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ASIAuthenticationDialog.m; sourceTree = "<group>"; };
 		48221740145099B1006299C7 /* ASICacheDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ASICacheDelegate.h; sourceTree = "<group>"; };
@@ -202,6 +202,10 @@
 		4822176B1450A702006299C7 /* UIImage+RoundedCorner.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+RoundedCorner.m"; sourceTree = "<group>"; };
 		482217701450A71B006299C7 /* JSONKit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JSONKit.h; sourceTree = "<group>"; };
 		482217711450A71B006299C7 /* JSONKit.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JSONKit.m; sourceTree = "<group>"; };
+		4822177E1450C84E006299C7 /* DSActivityView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = DSActivityView.h; path = "POTR SDK Test App/DSActivityView.h"; sourceTree = "<group>"; };
+		4822177F1450C84E006299C7 /* DSActivityView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = DSActivityView.m; path = "POTR SDK Test App/DSActivityView.m"; sourceTree = "<group>"; };
+		482FC9B21450CE8000BB9E7A /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
+		482FC9B51450CEAB00BB9E7A /* libFlurryAnalytics.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libFlurryAnalytics.a; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -209,6 +213,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				482FC9B31450CE8100BB9E7A /* Security.framework in Frameworks */,
 				4822176414509AE8006299C7 /* MobileCoreServices.framework in Frameworks */,
 				4822176214509A94006299C7 /* SystemConfiguration.framework in Frameworks */,
 				4822176014509A54006299C7 /* libz.dylib in Frameworks */,
@@ -219,7 +224,8 @@
 				4822169E1450907E006299C7 /* UIKit.framework in Frameworks */,
 				482216A01450907E006299C7 /* Foundation.framework in Frameworks */,
 				482216A21450907E006299C7 /* CoreGraphics.framework in Frameworks */,
-				48221731145095A1006299C7 /* libPCOTR SDK.a in Frameworks */,
+				482FC9B61450CEAB00BB9E7A /* libFlurryAnalytics.a in Frameworks */,
+				481748CF1455FE1A00730F1A /* libPCOTR SDK.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -298,8 +304,9 @@
 				482217341450992C006299C7 /* AddressBook.framework */,
 				482217351450992C006299C7 /* AddressBookUI.framework */,
 				48221732145098EF006299C7 /* CoreLocation.framework */,
-				48221730145095A1006299C7 /* libPCOTR SDK.a */,
+				482FC9B21450CE8000BB9E7A /* Security.framework */,
 				4822175F14509A54006299C7 /* libz.dylib */,
+				481748CE1455FE1A00730F1A /* libPCOTR SDK.a */,
 			);
 			name = "SDK Specific";
 			sourceTree = "<group>";
@@ -368,8 +375,8 @@
 		4822173B14509961006299C7 /* DSActivityView */ = {
 			isa = PBXGroup;
 			children = (
-				482217381450995D006299C7 /* DSActivityView.h */,
-				482217391450995D006299C7 /* DSActivityView.m */,
+				4822177E1450C84E006299C7 /* DSActivityView.h */,
+				4822177F1450C84E006299C7 /* DSActivityView.m */,
 			);
 			name = DSActivityView;
 			path = ..;
@@ -378,6 +385,7 @@
 		4822173C14509973006299C7 /* Third Party Code */ = {
 			isa = PBXGroup;
 			children = (
+				482FC9B41450CE9D00BB9E7A /* Flurry */,
 				4822176F1450A707006299C7 /* JSONKit */,
 				482217651450A6EB006299C7 /* UIImage+Resize */,
 				4822173D145099A6006299C7 /* ASI */,
@@ -435,6 +443,14 @@
 				482217711450A71B006299C7 /* JSONKit.m */,
 			);
 			name = JSONKit;
+			sourceTree = "<group>";
+		};
+		482FC9B41450CE9D00BB9E7A /* Flurry */ = {
+			isa = PBXGroup;
+			children = (
+				482FC9B51450CEAB00BB9E7A /* libFlurryAnalytics.a */,
+			);
+			name = Flurry;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -557,7 +573,6 @@
 				482216AA1450907E006299C7 /* main.m in Sources */,
 				482216AE1450907E006299C7 /* PCAppDelegate.m in Sources */,
 				4822172C145092BA006299C7 /* PCRootViewController.m in Sources */,
-				4822173A1450995D006299C7 /* DSActivityView.m in Sources */,
 				48221754145099B1006299C7 /* ASIAuthenticationDialog.m in Sources */,
 				48221755145099B1006299C7 /* ASIDataCompressor.m in Sources */,
 				48221756145099B1006299C7 /* ASIDataDecompressor.m in Sources */,
@@ -571,6 +586,7 @@
 				4822176D1450A702006299C7 /* UIImage+Resize.m in Sources */,
 				4822176E1450A702006299C7 /* UIImage+RoundedCorner.m in Sources */,
 				482217721450A71B006299C7 /* JSONKit.m in Sources */,
+				482217801450C84E006299C7 /* DSActivityView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -640,6 +656,7 @@
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
 					"\"$(SRCROOT)\"",
+					"\"$(SRCROOT)/POTR SDK Test App\"",
 				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
@@ -655,6 +672,7 @@
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
 					"\"$(SRCROOT)\"",
+					"\"$(SRCROOT)/POTR SDK Test App\"",
 				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
@@ -680,6 +698,7 @@
 				482216B31450907E006299C7 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

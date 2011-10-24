@@ -9,7 +9,7 @@
 #import <UIKit/UIKit.h>
 #import "PCWorkflowController.h"
 
-@interface PCRootViewController : UIViewController <PCWorkflowControllerDelegate>
+@interface PCRootViewController : UIViewController <PCWorkflowControllerDelegate, UINavigationControllerDelegate>
 {
     UIImageView *_imageView;
 }

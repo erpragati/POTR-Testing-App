@@ -34,7 +34,7 @@
     
     UIViewController *viewController = [workflowController viewControllerForPhoto:image];
     UINavigationController *navController = [[UINavigationController alloc] initWithRootViewController:viewController];
-    
+    navController.delegate = self;
     [self presentModalViewController:navController animated:YES];
     [navController release];
 }
@@ -43,7 +43,7 @@
 
 - (BOOL)shouldAutorotateToInterfaceOrientation:(UIInterfaceOrientation)interfaceOrientation
 {
-    return ( interfaceOrientation == UIInterfaceOrientationPortrait );
+    return YES;//( interfaceOrientation == UIInterfaceOrientationPortrait );
 }
 
 - (void)viewDidUnload;
@@ -95,6 +95,13 @@
 - (void)pcotr:(UIViewController *)pcotr canceled:(BOOL)canceled;
 {
     NSLog( @"Done!" );
+}
+
+#pragma mark UINavigationControllerDelegate
+
+- (void)navigationController:(UINavigationController *)navigationController didShowViewController:(UIViewController *)viewController animated:(BOOL)animated;
+{
+    [navigationController setToolbarHidden:( [viewController.toolbarItems count] == 0 ) animated:animated];
 }
 
 @end
