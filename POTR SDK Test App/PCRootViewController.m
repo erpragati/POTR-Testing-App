@@ -81,12 +81,11 @@
 {
     return YES;
 }
-/*
+
 - (UIColor *)tintColor;
 {
     return [UIColor blackColor];
 }
-*/
 - (NSString *)partnerName;
 {
     return NSLocalizedString( @"Test App", @"" );
